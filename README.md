@@ -45,4 +45,4 @@ All data in this repository is **synthetic**. Every tool was rebuilt independent
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/nisamudheen-a-49556a298) · Email: your-email-here
+[LinkedIn](https://www.linkedin.com/in/nisamudheen-a-49556a298) · Email: nisamsha35@gmail.com
