@@ -1,44 +1,36 @@
-# Case Study 1: Automated Bank Reconciliation & Data Cleaning
+# Automated Bank Reconciliation and Data Cleaning
 
-> Anonymized. Company and bank names are placeholders ("Company Alpha", "Bank A"). All figures are illustrative unless marked.
+*Company and bank names are anonymized and all data shown is synthetic.*
 
-## Context
-Sector: services company, UAE. Volume: roughly [X] bank lines per month across [X] accounts. Tools: Excel, Power Query, Google Sheets.
+| | |
+|---|---|
+| **Role** | Accountant |
+| **Environment** | UAE, VAT-registered company |
+| **Tools** | Excel, Power Query, Google Sheets, Apps Script, VBA |
 
-## Situation
-Monthly bank statements arrived as CSV/Excel exports with inconsistent date formats, extra header rows and debit/credit split across columns. Matching to the ledger was done by hand, which was slow and error-prone at month-end.
+## The problem
+Bank statements arrived as CSV and Excel exports with inconsistent date formats, extra header rows and debit and credit amounts in separate columns. Matching them to the ledger was done line by line, which was slow at month-end and made errors hard to trace.
 
-## Task
-Standardize the statement format and flag unmatched or duplicate items automatically, so the accountant only reviews exceptions.
-
-## Action
-1. **Clean:** Power Query steps to remove header noise, trim descriptions, convert text dates to real dates and combine debit/credit into one signed Amount column.
-2. **Match:** rule-based matching on amount, reference and a 3-day date window (Excel `XLOOKUP` or Apps Script).
-3. **Exceptions:** unmatched bank lines and unmatched ledger lines listed on a separate tab, plus a duplicate flag.
-4. **Control check:** opening balance + movements = closing balance, with a difference cell that must equal zero before sign-off.
+## My approach
+1. **Standardize the data.** Power Query steps remove header noise, trim descriptions, convert text dates to real dates and combine debit and credit into a single signed amount.
+2. **Match automatically.** Each bank line is matched to a ledger line on amount and reference, within a three-day date window. Every ledger line can be used only once.
+3. **Isolate exceptions.** Unmatched bank lines, unmatched ledger lines and possible duplicates are listed separately, so review time goes only to items that need judgment.
+4. **Prove the result.** A control check confirms that opening balance plus movements equals closing balance, and the difference must be zero before sign-off.
 
 ## Workflow
-`Bank CSV` -> `Power Query clean` -> `Auto-match vs ledger` -> `Exceptions tab` -> `Review and post` -> `Control total = 0`
+Bank CSV → Power Query cleaning → Automated matching → Exceptions sheet → Review and posting → Control total check
 
-*(Add a flowchart image here: images/reconciliation-flow.png)*
+## Controls
+- Matching rules are documented: exact amount, three-day date tolerance
+- No ledger entry is matched twice
+- All exceptions are reviewed and cleared before month-end sign-off
 
-## Controls and risk
-- Tolerance rules documented (date window, amount must match exactly)
-- Each ledger line can be matched only once
-- Manual review of all exceptions before month-end sign-off
+## Outcome
+Manual line-by-line matching was replaced with exception-based review. The process is repeatable each month, produces a clear audit trail, and supports a faster and more reliable close.
 
-## Result
-*Replace with your real numbers:*
-- Manual matching time: from [X] hours to [X] hours per month
-- Share of lines auto-matched: [X]%
-- Reconciliation differences caught before close: [X]
-
-## What I would improve
-Add fuzzy matching on descriptions, and a monthly trend of exception types.
-
-## Code
-- [Power Query](../code/power-query/clean-statement.m)
-- [Apps Script](../code/apps-script/reconcile.gs)
-- [VBA](../code/vba/CleanBankStatement.bas)
-- [Excel formulas](../code/excel-formulas/matching-formulas.md)
-- [Sample data](../sample-data/)
+## Code and sample files
+- [Power Query script](https://github.com/nisamsha35-sudo/finance-automation-toolkit/blob/main/code/power-query/clean-statement.m)
+- [Google Apps Script](https://github.com/nisamsha35-sudo/finance-automation-toolkit/blob/main/code/apps-script/reconcile.gs)
+- [VBA macro](https://github.com/nisamsha35-sudo/finance-automation-toolkit/blob/main/code/vba/CleanBankStatement.bas)
+- [Excel formulas](https://github.com/nisamsha35-sudo/finance-automation-toolkit/blob/main/code/excel-formulas/matching-formulas.md)
+- [Synthetic sample data](https://github.com/nisamsha35-sudo/finance-automation-toolkit/tree/main/sample-data)
