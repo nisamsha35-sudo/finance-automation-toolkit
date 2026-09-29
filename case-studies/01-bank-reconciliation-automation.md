@@ -1,6 +1,5 @@
 # Automated Bank Reconciliation and Data Cleaning
 
-*Company and bank names are anonymized and all data shown is synthetic.*
 
 | | |
 |---|---|
