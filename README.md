@@ -4,7 +4,7 @@
 
 ### Accountant | UAE VAT & Tax Compliance | Finance Automation
 
-Dubai / Sharjah, UAE · [LinkedIn](https://www.linkedin.com/in/nisamudheen-a-49556a298)
+Dubai, UAE · [LinkedIn](https://www.linkedin.com/in/nisamudheen-a-49556a298)
 
 BCom (Accounting & Finance) · CMA USA candidate · Anti-Money Laundering certified
 
