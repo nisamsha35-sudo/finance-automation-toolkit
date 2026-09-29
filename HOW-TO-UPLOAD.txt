@@ -1,0 +1,5 @@
+1. In your repo click Add file > Upload files.
+2. Drag the whole contents of this folder (README.md, case-studies, code, docs, sample-data) into the page.
+3. Click Commit changes.
+GitHub keeps the folder structure when you drag folders in.
+Before publishing: replace PASTE-YOUR-LINKEDIN-URL, PASTE-CV-LINK, PASTE-YOUR-EMAIL and every [X] with real numbers.

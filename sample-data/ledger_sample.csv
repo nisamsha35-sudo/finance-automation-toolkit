@@ -1,0 +1,12 @@
+Date,Description,Reference,Amount
+2025-03-02,Receipt - Client A,INV-1001,5000.00
+2025-03-03,Payment - Vendor B,BILL-201,-1200.00
+2025-03-05,Bank charges,BC-0325,-45.00
+2025-03-08,Receipt - Client C,INV-1003,3200.50
+2025-03-10,Rent,RENT-03,-4000.00
+2025-03-12,Receipt - Client D,INV-1004,7800.00
+2025-03-16,Payment - Vendor E,BILL-202,-2750.00
+2025-03-18,Utilities,UTIL-03,-890.75
+2025-03-21,Receipt - Client F,INV-1006,1500.00
+2025-03-25,Salaries,PAY-03,-9500.00
+2025-03-30,Receipt - Client G,INV-1007,2200.00
