@@ -17,6 +17,8 @@ Bank statements arrived as CSV and Excel exports with inconsistent date formats,
 4. **Prove the result.** A control check confirms that opening balance plus movements equals closing balance, and the difference must be zero before sign-off.
 
 ## Workflow
+![Bank reconciliation workflow](../images/reconciliation-flow.png)
+Case Study 3: under the ## Demo: receivables ageing report heading, add this li
 Bank CSV → Power Query cleaning → Automated matching → Exceptions sheet → Review and posting → Control total check
 
 ## Controls
