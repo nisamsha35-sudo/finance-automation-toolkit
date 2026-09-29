@@ -1,39 +1,34 @@
-# Case Study 2: Cross-Border Accounting & Tax Compliance (India to UAE)
+# Cross-Border Accounting and Tax Compliance: India to UAE
 
-> Anonymized. Describes process and approach, not client data.
+*Employer and client details are generalized. This page describes process and approach only.*
 
-## Context
-Six-plus years of accounting across India (petroleum distribution, multi-client practice) and the UAE (corporate accounting, VAT-registered environment).
+| | |
+|---|---|
+| **Roles** | Accountant (OmnyPark, UAE), Accountant (Indian Oil Corp Ltd, India), Accountant (Finite Accounts Solutions, India) |
+| **Experience** | 6+ years across the UAE and India |
+| **Frameworks** | UAE VAT, IFRS-based reporting, Indian GST, Indian GAAP |
 
-## Situation
-Moving between Indian statutory accounting (Indian GAAP, GST) and UAE practice (IFRS-based reporting, VAT) requires different tax logic, filing cycles and documentation.
+## Background
+My career spans two regulatory environments. In India I worked in petroleum distribution and in a multi-client accounting practice, handling GST filing, input tax credit reconciliation and statutory reporting. In the UAE I work in a VAT-registered environment, preparing management reporting and applying UAE VAT principles to day-to-day transactions.
 
-## Comparison
+## India and UAE compared
+
 | Area | India | UAE |
 |---|---|---|
-| Indirect tax | GST returns, input tax credit (ITC) reconciliation | VAT returns, input/output tax reconciliation |
-| Reporting | Indian GAAP, statutory reporting | IFRS-based management and statutory reporting |
-| Audit | Statutory audits (three consecutive years with zero discrepancies at Indian Oil) | Internal and external audit support |
-| Records | Invoices and return documentation | Tax invoices, VAT records kept for the required period |
+| Indirect tax | GST returns and input tax credit reconciliation | VAT returns and input and output tax reconciliation |
+| Reporting | Indian GAAP and statutory reporting | IFRS-based management and financial reporting |
+| Audit | Statutory audits, with no discrepancies across three consecutive years | Internal and external audit support |
+| Records | Invoices, returns and statutory documentation | Tax invoices and VAT records kept to regulatory requirements |
 
-## Action: my VAT tie-out process
-1. Reconcile sales and purchase registers to the ledger
-2. Check tax codes on each transaction (standard-rated, zero-rated, exempt, out of scope)
+## My VAT reconciliation process
+1. Reconcile sales and purchase records to the general ledger
+2. Check the tax treatment of each transaction: standard-rated, zero-rated, exempt or out of scope
 3. Reconcile output and input VAT to the VAT control accounts
-4. Prepare the return workings and review exceptions before filing
-5. Keep supporting documents organized for audit
+4. Prepare the return workings and clear exceptions before filing
+5. File supporting documents in an organized way, ready for audit
 
-## Result
-*Add only what you can support:*
-- Returns filed on time: [X] periods with no penalties
-- Audit outcome: [X]
-- Issues found and corrected before filing: [X]
-
-## Corporate Tax
-Working knowledge of UAE Corporate Tax concepts. *(Edit this line to describe hands-on exposure only if you have it.)*
-
-## What I would improve
-Automate a monthly VAT control-account reconciliation with exception reporting.
+## Why the cross-border experience matters
+Indirect tax rules differ between countries, but the discipline behind them is the same: correct classification, complete documentation and reconciliation to the ledger. Having worked with both GST and VAT, I can recognize where the systems align and where they differ, which reduces errors when moving between them.
 
 ## Related
-[GST vs UAE VAT explainer](../docs/gst-vs-uae-vat.md)
+- [GST vs UAE VAT explainer](https://nisamsha35-sudo.github.io/finance-automation-toolkit/docs/gst-vs-uae-vat.html)
