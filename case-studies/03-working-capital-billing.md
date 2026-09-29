@@ -1,28 +1,40 @@
-# Case Study 3: Working Capital, Cash Control & Billing Reconciliation
+# Working Capital, Cash Control and Stock Reconciliation
 
-> Anonymized. Based on experience in fuel distribution and retail operations (ADNOC Distribution, Indian Oil). Figures are placeholders.
+| | |
+|---|---|
+| **Roles** | Accountant (Indian Oil), Sales Specialist (ADNOC Distribution), Accountant (OmnyPark) |
+| **Environment** | Fuel distribution, retail service stations, corporate accounting |
+| **Tools** | Excel, Tally, Oracle BI, Google Sheets |
 
-## Context
-High-volume environments where fuel stock, daily sales, cash handling and billing must tie together every day.
+## The challenge
+High-volume operations such as fuel depots and service stations generate large numbers of transactions every day. Stock movement, sales, cash and expenses must agree with each other, or small differences build into audit problems and weak cash visibility.
 
-## Situation
-Large transaction volumes meant small discrepancies between stock movement, sales and cash could build up unnoticed, and slow-moving receivables affected cash flow.
+## My approach
+1. **Daily and shift reconciliation.** Sales reports, cash handling logs and stock consumption were reconciled every shift, and variances were investigated and recorded.
+2. **Fuel stock control.** Replenishment and consumption were reconciled against inventory records to keep stock differences to a minimum.
+3. **Cost and expense tracking.** Logistics cost and operating expenditure for fuel depot dispatch were tracked and reconciled with supply chain and logistics teams.
+4. **Receivables and payables monitoring.** AP and AR ledgers were reviewed regularly to support timely collections, accurate vendor payments and healthy cash flow.
+5. **Audit preparation.** Records were kept organized and consistent so statutory and internal auditors could verify them without rework.
 
-## Task
-Improve daily control, catch discrepancies early and keep receivables and cash visible.
+## Controls
+- Every shift reconciled and signed off before records were closed
+- Variances investigated, explained and documented
+- Supporting records kept ready for audit
 
-## Action
-- **Daily/shift reconciliation:** sales report vs cash handled vs stock consumption, with variances logged
-- **Stock control:** fuel inventory replenishment and consumption reconciliation to minimize stock discrepancies
-- **AR ageing report:** buckets 0-30, 31-60, 61-90 and 90+ days, reviewed weekly
-- **Billing-to-delivery check:** invoices matched to dispatch/delivery records
-- **Cash forecast:** simple weekly view of expected receipts and payments
+## Outcomes
+- Worked with statutory auditors through annual audits at a large petroleum distribution unit, with **no discrepancies raised across three consecutive years**
+- Maintained accurate daily sales, cash and stock records in a high-volume retail fuel environment
+- Supported timely collections and vendor payments through regular ledger review
 
-## Result
-*Replace with your real numbers:*
-- Stock variance: [X]% reduction
-- Overdue receivables: [X]% reduction
-- Audit readiness: records supported [X] audits without adjustments
+## Demo: receivables ageing report
+*Illustrative sample using synthetic data. It shows the format of the tracker included in the toolkit, not actual results.*
 
-## What I would improve
-Automated ageing dashboard with reminders, and variance thresholds that trigger alerts.
+| Age bucket | Amount (AED) | Share of total |
+|---|---|---|
+| 0-30 days | 185,000 | 57.8% |
+| 31-60 days | 78,000 | 24.4% |
+| 61-90 days | 37,000 | 11.6% |
+| 90+ days | 20,000 | 6.2% |
+| **Total** | **320,000** | **100%** |
+
+A weekly review of the older buckets is how overdue balances are spotted and chased before they become a cash-flow problem.
