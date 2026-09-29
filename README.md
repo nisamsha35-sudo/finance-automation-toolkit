@@ -17,11 +17,14 @@ Languages: English · Malayalam · Hindi · Arabic
 **6+ years** across the UAE and India: corporate accounting, petroleum distribution and retail.
 
 ## Featured case studies
-| Case study | Focus | Tools |
-|---|---|---|
-| [1. Automated Bank Reconciliation](case-studies/01-bank-reconciliation-automation.md) | Cut manual matching, flag exceptions | Power Query, Apps Script, VBA, Excel |
-| [2. India to UAE: GST to VAT Compliance](case-studies/02-india-to-uae-tax-compliance.md) | Cross-border tax and reporting | VAT, GST, IFRS awareness |
-| [3. Working Capital & Fuel/Retail Billing Control](case-studies/03-working-capital-billing.md) | Cash, AR ageing, reconciliation | Excel, AR ageing |
+
+<table>
+<tr>
+<td width="33%"><a href="case-studies/01-bank-reconciliation-automation.html"><img src="images/thumb-case-study-1.png" alt="Case study 1: Automated Bank Reconciliation"></a></td>
+<td width="33%"><a href="case-studies/02-india-to-uae-tax-compliance.html"><img src="images/thumb-case-study-2.png" alt="Case study 2: India to UAE GST and VAT"></a></td>
+<td width="33%"><a href="case-studies/03-working-capital-billing.html"><img src="images/thumb-case-study-3.png" alt="Case study 3: Working Capital and Cash Control"></a></td>
+</tr>
+</table>
 
 ## Code and tools
 - [Excel matching formulas](code/excel-formulas/matching-formulas.md)
