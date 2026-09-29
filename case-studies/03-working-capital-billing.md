@@ -27,6 +27,7 @@ High-volume operations such as fuel depots and service stations generate large n
 - Supported timely collections and vendor payments through regular ledger review
 
 ## Demo: receivables ageing report
+![Receivables ageing chart](../images/ageing-demo.png)
 *Illustrative sample using synthetic data. It shows the format of the tracker included in the toolkit, not actual results.*
 
 | Age bucket | Amount (AED) | Share of total |
