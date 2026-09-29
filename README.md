@@ -1,10 +1,11 @@
 # Nisamudheen Aliparampil
 ### Accountant | UAE VAT & Tax Compliance | Finance Automation
 
-Dubai / Sharjah, UAE · [www.linkedin.com/in/nisamudheen-a-49556a298]
-BCom (Accounting & Finance) · CMA USA candidate · Anti-Money Laundering certified
-Languages: English · Malayalam · Hindi · Arabic
+Dubai / Sharjah, UAE · [LinkedIn](https://www.linkedin.com/in/nisamudheen-a-49556a298)
 
+BCom (Accounting & Finance) · CMA USA candidate · Anti-Money Laundering certified
+
+Languages: English · Malayalam · Hindi · Arabic
 ---
 
 ## What I do
@@ -31,6 +32,7 @@ Languages: English · Malayalam · Hindi · Arabic
 - [Explainer: GST vs UAE VAT](docs/gst-vs-uae-vat.md)
 
 ## Experience snapshot
+
 | Period | Role | Focus |
 |---|---|---|
 | Oct 2025 to present | Accountant, OmnyPark (Sharjah) | Full-cycle bookkeeping, VAT, reconciliation automation |
@@ -42,4 +44,5 @@ Languages: English · Malayalam · Hindi · Arabic
 All data in this repository is **synthetic**. Every tool was rebuilt independently for demonstration. No employer or client data is included.
 
 ## Contact
-LinkedIn: www.linkedin.com/in/nisamudheen-a-49556a298 · Email: nisamsha35@gmail.com
+
+[LinkedIn](https://www.linkedin.com/in/nisamudheen-a-49556a298) · Email: your-email-here
