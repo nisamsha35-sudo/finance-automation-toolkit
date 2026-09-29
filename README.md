@@ -1,8 +1,7 @@
 # Nisamudheen Aliparampil
 ### Accountant | UAE VAT & Tax Compliance | Finance Automation
 
-Dubai / Sharjah, UAE · [LinkedIn](PASTE-YOUR-LINKEDIN-URL) · [Download CV](PASTE-CV-LINK)
-
+Dubai / Sharjah, UAE · [www.linkedin.com/in/nisamudheen-a-49556a298]
 BCom (Accounting & Finance) · CMA USA candidate · Anti-Money Laundering certified
 Languages: English · Malayalam · Hindi · Arabic
 
@@ -43,4 +42,4 @@ Languages: English · Malayalam · Hindi · Arabic
 All data in this repository is **synthetic**. Every tool was rebuilt independently for demonstration. No employer or client data is included.
 
 ## Contact
-LinkedIn: PASTE-YOUR-LINKEDIN-URL · Email: PASTE-YOUR-EMAIL
+LinkedIn: www.linkedin.com/in/nisamudheen-a-49556a298 · Email: nisamsha35@gmail.com
